@@ -7,7 +7,7 @@ a ui rendering libary
 ## Usage
 To convert Creamy Code to Html
 ```js
-Creamy.toHTML([Creamy code])
+Creamy.toHTML(["creamy Code"])
 ```
 
 ## How to use Creamy Code
