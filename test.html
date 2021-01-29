@@ -1,0 +1,30 @@
+<script src="creamy.js"></script>
+<script>
+    console.log(Creamy.toHTML([
+        {
+            tag
+            : "div",
+            id: "my-block",
+            class: ["btn", "bg-green"],
+            attributes: [
+                {
+                    att: "data-action",
+                    value: "blast"
+                }
+            ],
+            child: [
+                "{{mes}} ",
+                {
+                    tag
+                    : "span",
+                    css: `
+                    color: brown;
+                    `,
+                    child: [
+                        " from {{lib}}"
+                    ]
+                }
+            ]
+        }
+    ]))
+</script>
