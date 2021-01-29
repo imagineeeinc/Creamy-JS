@@ -1,5 +1,9 @@
 # Creamy-JS
 a ui rendering libary
+## Install
+```html
+<script src="https://cdn.jsdelivr.net/gh/imagineeeinc/Creamy-JS/creamy.js"></script>
+```
 ## Usage
 To convert Creamy Code to Html
 ```js
@@ -27,7 +31,7 @@ Example:
                 color: brown;
             `,
             child: [
-                " from {{lib}}"
+                " from Creamy JS"
             ]
         }
     ]
@@ -46,6 +50,8 @@ options:
 ```attributes > att```-type="string": the name of the attributute
 <br>
 ```attributes > value```-type="string": the value of the attributute
+<br>
+```css```-type="string": put all the css here
 <br>
 ```child```-type="array": the inside of the element
 <br>
