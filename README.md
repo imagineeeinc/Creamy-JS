@@ -1,5 +1,5 @@
 # Creamy-JS
-a ui rendering libary
+a JavaScript user interface building and rendering libary
 ## Install
 ```html
 <script src="https://cdn.jsdelivr.net/gh/imagineeeinc/Creamy-JS/creamy.js"></script>
